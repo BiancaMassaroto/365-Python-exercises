@@ -61,14 +61,3 @@ Here are the descriptions for the first 5 exercises I've done until now, I'll be
 * **Constraint:** Banned from using nested loops (which results in a slow \(O(N^2)\) runtime) or comparing list lengths via `len(set(lst))`.
 
 ---
-
-## 📈 Repository Structure
-```text
-├── README.md
-├── Module_0_Core/
-│   ├── Day_001_reversal/
-│   │   ├── solution.py
-│   │   └── test_solution.py  # Manual assert statements for validation
-│   └── ...
-└── ...
-```
