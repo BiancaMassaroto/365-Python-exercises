@@ -41,23 +41,26 @@ The 365-day roadmap is split into 6 blocks, each scaling in difficulty:
 Here are the descriptions for the first 5 exercises I've done until now, I'll be weekly updating my progress until I finish all 365 exercises!
 
 ### Exercise 1: In-Place Array Reversal (Two Pointers)
-* **Objective:** Reverse an array of elements without allocating any extra memory space.
+* **Goal:** Reverse an array of elements without allocating any extra memory space.
 * **Constraint:** Banned from using `.reverse()`, `[::-1]`, or creating a secondary buffer list.
 
 ### Exercise 2: Manual Extreme Value Lookup
-* **Objective:** Scan a dynamic list of floating-point numbers to find both the maximum and minimum elements.
+* **Goal:** Scan a dynamic list of floating-point numbers to find both the maximum and minimum elements.
 * **Constraint:** Banned from using the built-in `max()` and `min()` functions.
 
 ### Exercise 3: Sorted Array Merge
-* **Objective:** Take two separate lists that are already sorted in ascending order and combine them into a single, fully-sorted third list.
+* **Goal:** Take two separate lists that are already sorted in ascending order and combine them into a single, fully-sorted third list.
 * **Constraints:** Banned from using `.sort()`, `sorted()`, or appending everything and running an external sorting algorithm.
 
 ### Exercise 4: Element Removal with Manual Shifting
-* **Objective:** Scan an array and remove all occurrences of a target value `X`.
+* **Goal:** Scan an array and remove all occurrences of a target value `X`.
 * **Constraint:** Banned from using `.remove()`, `.pop()`, or generating a new filtered list via list comprehensions.
 
 ### Exercise 5: O(N) Duplicate Detection
-* **Objective:** Determine whether a given list contains any duplicate elements in a single pass.
+* **Goal:** Determine whether a given list contains any duplicate elements in a single pass.
 * **Constraint:** Banned from using nested loops (which results in a slow \(O(N^2)\) runtime) or comparing list lengths via `len(set(lst))`.
+
+### Exercise 6: Calculating average with sliding window
+* **Goal:** Calculate the average of the numbers on each sliding window size k on a list
 
 ---
